@@ -16,7 +16,7 @@ pipeline
                   stage('Install') {
                            steps{
                                  script{
-                                      sh "sudo npm install"
+                                      sh "sudo apt-get install npm"
                 }
             }
         }          
